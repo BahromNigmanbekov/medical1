@@ -24,7 +24,7 @@ function Cloges() {
                     <img src={page6} alt="" />
                     
                     <p>100+ Reviews</p>
-
+                    <p>salom</p>
                 </div>
             </div>
         </div>
