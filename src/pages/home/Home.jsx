@@ -8,10 +8,9 @@ function Home() {
     <>
       <div className="big">
         <div className="container">
-            <Header/>
-            <Section/>
+          <Header />
+          <Section />
           <Cloges />
-          
         </div>
       </div>
     </>
