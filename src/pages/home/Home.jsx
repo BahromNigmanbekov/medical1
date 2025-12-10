@@ -6,7 +6,7 @@ function Home() {
     <>
       <div className="big">
         <div className="container">
-          <Cloges />
+          <Cloges/>
         </div>
       </div>
     </>
