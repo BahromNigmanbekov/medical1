@@ -1,12 +1,17 @@
 import React from "react";
 import Cloges from "../../components/cloges/Cloges";
+import Header from "../../components/header/Header";
+import Section from "../../components/section/Section";
 
 function Home() {
   return (
     <>
       <div className="big">
         <div className="container">
-          <Cloges/>
+            <Header/>
+            <Section/>
+          <Cloges />
+          
         </div>
       </div>
     </>
