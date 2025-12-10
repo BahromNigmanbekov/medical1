@@ -16,22 +16,22 @@ function Section() {
         <div className="big_ul">
             <div className="card_1">
                 <img src={covid} alt="" />
-                <h3>Covid-19 Test</h3>
+                <h3 className='h3t'>Covid-19 Test</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem velit viverra amet faucibus.</p>
             </div>
             <div className="card_1">
                 <img src={opka} alt="" />
-                <h3>Heart Lungs</h3>
+                <h3 className='h3t'>Heart Lungs</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem velit viverra amet faucibus.</p>
             </div>
             <div className="card_1">
                 <img src={kosa} alt="" />
-                <h3>Suppliment</h3>
+                <h3 className='h3t'>Suppliment</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem velit viverra amet faucibus.</p>
             </div>
             <div className="card_1">
                 <img src={bosh} alt="" />
-                <h3>Mental Health</h3>
+                <h3 className='h3t'>Mental Health</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem velit viverra amet faucibus.</p>
             </div>
         </div>
