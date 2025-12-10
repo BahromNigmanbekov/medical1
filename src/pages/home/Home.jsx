@@ -7,13 +7,9 @@ function Home() {
   return (
     <>
       <div className="big">
-        
             <Header/>
             <Section/>
           <Cloges />
-        
-          
-        </div>
       </div>
     </>
   );
