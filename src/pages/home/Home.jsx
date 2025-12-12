@@ -2,6 +2,7 @@ import React from "react";
 import Cloges from "../../components/cloges/Cloges";
 import Header from "../../components/header/Header";
 import Section from "../../components/section/Section";
+import Footer from "../../components/footer/Footer"
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
             <Header/>
             <Section/>
           <Cloges />
+          <Footer/>
       </div>
     </>
   );
