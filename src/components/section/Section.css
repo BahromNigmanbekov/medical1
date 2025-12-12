@@ -1,8 +1,4 @@
-.container{
-    width: 1200px;
-    margin: 0 auto;
-    
-}
+
 
 .name_page{
     color: rgba(46, 46, 46, 1);
@@ -12,29 +8,35 @@
     font-size: 48px;
     line-height: 100%;
     letter-spacing: 0%;
+    margin-top: 90px;
+    margin-bottom: 90px;
 }
 
 .big_ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 120px;
 }
 
-.card_1{
-    width: 255px;
-    height: 255px;
-    top: 1122px;
-    left: 120px;
+.card_1 {
+    width: 285px;
+    height: 285px;
     border-radius: 20px;
     border: 2px solid rgba(94, 94, 94, 0.648);
-    padding-left: 22px;
-    padding-top:32px;
-    padding-bottom: 30px;
-    padding-right: 10px;
-    transition: all ease 0.8s;
+    padding: 32px 10px 30px 22px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    transition: all 0.6s ease;
 }
 
+.card_1 * {
+    transition: all 0.5s ease;
+}
+
+.card_1:hover {
+    background-color: rgba(3, 96, 217, 1);
+    color: #fff;
+}
 
 
 
@@ -43,15 +45,16 @@
     font-weight: 700;
     font-style: Bold;
     font-size: 24px;
+    padding-top: 22px;
+    margin-bottom: 22px;
 }
 
 .card_1 img {
-    width: 32px;
-    height: 32px;
+    width:72px;
+    height: 72px;
     background: rgba(3, 96, 217, 1);
     background: rgba(230, 245, 252, 1);
-    object-fit: contain;
-    padding: 30px;
+    padding: 20px;
     border-radius: 50%;
 }
 
@@ -63,7 +66,36 @@
 
 }
 
-.card_1:hover{
-    background-color: rgba(3, 96, 217, 1);
-    color:rgba(255, 255, 255, 1) ;
+
+.img_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.wrapper_left , .wrapper_rigth{
+    width: 48%;
+}
+
+.wrapper_rigth{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.list{
+    margin-bottom: 12px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.wrapper_btn{
+    display: flex;
+    width: 170px;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    color: rgba(3, 96, 217, 1);
 }
