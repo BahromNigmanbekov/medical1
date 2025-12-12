@@ -1,53 +1,68 @@
 import React from 'react'
 import './Footer.css'
+import map from "../../assets/map.png"
 
- function Footer() {
+function Footer() {
   return (
     <>
+    <div className="container">
+      
+    </div>
     <div className='subscribe_card'>
-      <br /><br /><br /> 
-    <h1 className='h1_footer'>Subscribe To Our Newsletter</h1>
+        <h2 className="font_h2">Subscribe To Our Newsletter</h2>
 
-    <button className='btn_card'>
-      <button className='btn_into'>→</button>
-    </button>
-    </div>
+        <form action="" className="font_form" >
+          <input type="text" className='input_form_b' placeholder='Enter your name...' />
+          <button className="btn_into">→</button>
+        </form>
+      </div>
+    <br /><br /><br /><br /><br />
 
-<br /><br /><br /><br /><br />
     <footer>
-      <div className='h2_1'>
-        <h2>E-sheba</h2>
-        <h2>Useful Link</h2>
-        <h2>Address</h2>
-       </div>
+        <div className="container">
+          <div className="hammasi">
 
-    <div className='h2_2'>
-     <p>Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit. Nec risus feugiat lectus risus sed <br /> ullamcorper. Auctor semper fermentum <br />
-      <br /> volutpat integer vel. In rhoncus elementum nunc, <br /> malesuada mi sed. Nibh est sit lobortis id semper.</p>
-        <p>About Us <br />
-           Privacy Policy <br />
-           Our Mission <br />
-           Our Team</p>
 
+            <div className='h2_1'>
+          <h2 className='salom_h2'>E-sheba</h2>
           
+          <p className='salom_p'>Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit. Nec risus feugiat lectus risus sed <br /> ullamcorper. Auctor  semper fermentum <br /><br />
+             volutpat integer vel. In rhoncus elementum nunc, <br /> malesuada mi sed. Nibh est sit lobortis id semper.
+             </p>
+        </div>
 
-          {/*} <iframe 
-    src="https://www.google.com/maps/embed?pb=YOUR_MAP_LINK"
-    width="600" 
-    height="450" 
-    style="border:0;" 
-    allowfullscreen="" 
-    loading="lazy">
-    </iframe>*/}
 
-    </div>
-    <p className='btn_footer'>____________________________________________________________________________________________________________________________________</p>
-    <br />
-    <p className='footer_p'>2022 All Right Reserved</p>
-    <br />
-    </footer>
+        <div className="useful">
+          <h2 className='user_h2'>
+            Useful Links
+          </h2>
+
+          <ul className='user_ul_list'>
+            <li className='list_link'>About Us</li>
+            <li className='list_link'>Privacy Policy</li>
+            <li className='list_link'>Our Mission</li>
+            <li className='list_link'>Our Team</li>
+          </ul>
+        </div>
+
+
+        <div className="map">
+          <h2 className='map_h2'>Address</h2>
+
+              <img src={map} alt="" />
+        </div>
+         
+          </div>
+        </div>
+
+        <p className='btn_footer'>____________________________________________________________________________________________________________________________________</p>
+        <br /><br />
+        <p className='footer_p'>2022 All Right Reserved</p>
+        <br />
+      </footer>
     </>
+    
   )
 }
 
-export default Footer
+export default Footer;
