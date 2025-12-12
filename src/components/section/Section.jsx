@@ -14,22 +14,22 @@ function Section() {
 
 
         <div className="big_ul">
-            <div className="card_1">
+            <div data-aos="fade-down-right" className="card_1">
                 <img src={covid} alt="" />
                 <h3 className='h3t'>Covid-19 Test</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem velit viverra amet faucibus.</p>
             </div>
-            <div className="card_1">
+            <div data-aos="zoom-in" className="card_1">
                 <img src={opka} alt="" />
                 <h3 className='h3t'>Heart Lungs</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem velit viverra amet faucibus.</p>
             </div>
-            <div className="card_1">
+            <div data-aos="zoom-in-up" className="card_1">
                 <img src={kosa} alt="" />
                 <h3 className='h3t'>Suppliment</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem velit viverra amet faucibus.</p>
             </div>
-            <div className="card_1">
+            <div data-aos="fade-down-left" className="card_1">
                 <img src={bosh} alt="" />
                 <h3 className='h3t'>Mental Health</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem velit viverra amet faucibus.</p>

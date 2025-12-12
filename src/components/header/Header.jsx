@@ -56,7 +56,7 @@ function Header() {
                     </div>
                 </div>
                 <div className="header_main_right" >
-                    <img src={brat} alt="" />
+                    <img data-aos="fade-left" src={brat} alt="" />
                 </div>
             </main>
         </div>
