@@ -4,11 +4,11 @@
   }
   
   .reviews-section {
-    padding: 100px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 50px;
   }
   
   .left-side {
