@@ -39,7 +39,7 @@ function Cloges() {
         </div>
 
         <div className="right-side">
-          <div className="card">
+          <div data-aos="fade-left" className="card">
             <div className="card-top">
               <div className="user-info">
                 <img src={page4} className="profile-img" />

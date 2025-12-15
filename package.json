@@ -10,6 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
+    "@react-google-maps/api": "^2.20.7",
+=======
+    "aos": "^2.3.4",
+>>>>>>> cff864e06fc30874cec911c09aa58438d08150c0
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-icons": "^5.5.0"
