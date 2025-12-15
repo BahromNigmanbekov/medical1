@@ -9,7 +9,7 @@ import Home from './pages/home/Home'
 function App() {
   const [count, setCount] = useState(0)
 
-  useEffect(() => {
+  useEffect(() => { 
     AOS.init({
       duration: 800, 
       easing: "ease-in-out",

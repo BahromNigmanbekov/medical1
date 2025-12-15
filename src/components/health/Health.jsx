@@ -35,7 +35,7 @@ function Health() {
                 semper.
               </p>
 
-              <button className="learn_more">Learn More</button>
+              <button className="learn_more">Learn More →</button>
             </div>
 
             <div className="future_right">
