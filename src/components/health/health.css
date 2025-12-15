@@ -1,0 +1,50 @@
+.future {
+    padding-top: 80px;
+    width: 100%;
+  }
+  
+  .future_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  
+  .future_left {
+    width: 50%;
+  }
+  
+  .title {
+    font-size: 42px;
+    font-weight: 700;
+  }
+  
+  span {
+    color: #1a73e8;
+  }
+  
+  .future_p {
+    margin: 15px 0;
+    font-size: 17px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .learn_more {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-weight: 500;
+    font-size: 16px;
+    background: white;
+    color: #1a73e8;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .future_right img {
+    width: 520px;
+    height: 400px;
+    border-radius: 10px;
+  }
+  
